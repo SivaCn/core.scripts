@@ -35,7 +35,7 @@ setup(
     #   py_modules=["my_module"],
     #
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),
-    namespace_packages=['jivacore', 'jivacore.sre'],
+    namespace_packages=['core', 'core.scripts'],
 
     install_requires=[],
 
