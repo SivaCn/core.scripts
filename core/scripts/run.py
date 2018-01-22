@@ -18,8 +18,7 @@ import json
 # ----------- END: Third Party Imports ---------- #
 
 # ----------- START: In-App Imports ---------- #
-from core.backend.deps import bottle
-
+import bottle
 from core.backend.controller import *
 # ----------- END: In-App Imports ---------- #
 
