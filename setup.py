@@ -40,8 +40,8 @@ setup(
     install_requires=[],
 
     entry_points={
-        'console_scripts': [
-            'run_instance=core.scripts.run:main',
-        ],
+        # 'console_scripts': [
+        #     'run_instance=core.scripts.run:main',
+        # ],
     },
 )
