@@ -17,6 +17,7 @@
 # ----------- END: Third Party Imports ---------- #
 
 # ----------- START: In-App Imports ---------- #
+from core.scripts.rmq_pre_setup import queue_declare, declare_vhost, declare_exchange
 # ----------- END: In-App Imports ---------- #
 
 __all__ = [
@@ -25,7 +26,10 @@ __all__ = [
 
 __import__('pkg_resources').declare_namespace(__name__)
 
-if __name__ == '__main__':
-    """This Bolck is used for Unit Test.
-    """
-    pass
+
+def presets():
+    """."""
+
+    declare_vhost()
+    declare_exchange()
+    queue_declare()
