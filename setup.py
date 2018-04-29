@@ -41,7 +41,7 @@ setup(
 
     entry_points={
         'console_scripts': [
-            'presets=core.scripts:presets',
+            'serial_tty=core.scripts.miniterm:main',
         ],
     },
 )
