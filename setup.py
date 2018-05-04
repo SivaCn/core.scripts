@@ -40,8 +40,8 @@ setup(
     install_requires=[],
 
     entry_points={
-        'console_scripts': [
-            'serial_tty=core.scripts.miniterm:main',
-        ],
+        #'console_scripts': [
+        #    'serial_tty=core.scripts.miniterm:main',
+        #],
     },
 )
